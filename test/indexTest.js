@@ -64,7 +64,7 @@ const record = [
 describe('index.js', function () {
   describe('superbowlWin', function () {
     it('returns a year the KC Chiefs won the superbowl', function () {
-      expect(superbowlWin).to.equal('1969');
+      expect(superbowlWin(record)).to.equal('1969');
     });
   });
 });
